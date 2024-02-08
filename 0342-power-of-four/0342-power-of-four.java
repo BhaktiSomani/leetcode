@@ -11,7 +11,7 @@ class Solution {
           if(Math.pow(4,i)==n){
               return true;
           }
-          else if(n==i|| Math.pow(4,i)>n ){
+          else if(Math.pow(4,i)>=n ){
               return false;
           }
           i++;
